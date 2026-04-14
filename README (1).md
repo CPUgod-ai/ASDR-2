@@ -84,9 +84,13 @@ Ninguna de las tres gramaticas es LL(1).
 ## Salida por consola
 Ejercicio 1
 <img width="414" height="246" alt="image" src="https://github.com/user-attachments/assets/415d11e0-4932-4432-abca-46fe7f5881c2" />
+
 Ejercicio 2
+
 <img width="637" height="492" alt="image" src="https://github.com/user-attachments/assets/89b2b789-07e8-47ee-9f28-625c7c4c4c76" />
+
 Ejercicio 3
+
 <img width="653" height="498" alt="image" src="https://github.com/user-attachments/assets/1ceca368-f915-4738-9600-344e8f947f8d" />
 
 
