@@ -1,4 +1,4 @@
-# Presentación 7 — Parsers Descendentes Recursivos con Backtracking
+# Parsers Descendentes Recursivos con Backtracking
 
 ## Introduccion
 
@@ -11,14 +11,11 @@ En este taller se implementan tres Analizadores Sintacticos Descendentes Recursi
 Todos los archivos tienen que estar en la misma carpeta.
 
 ```
-PRESENTACION7/
-├── parser_ejercicio1.py     <- ASDR ejercicio 1, eliminacion de recursividad en B
-├── parser_ejercicio2.py     <- ASDR ejercicio 2, recursividad indirecta S→B→A→S
-├── parser_ejercicio3.py     <- ASDR ejercicio 3, eliminacion de recursividad en S
-├── README_ejercicio1.md     <- analisis completo ejercicio 1
-├── README_ejercicio2.md     <- analisis completo ejercicio 2
-├── README_ejercicio3.md     <- analisis completo ejercicio 3
-└── README.md                <- este archivo
+ASDR-2/
+├── ejercicio1.py     <- ASDR ejercicio 1, eliminacion de recursividad en B
+├── ejercicio2.py     <- ASDR ejercicio 2, recursividad indirecta S→B→A→S
+├── ejercicio3.py     <- ASDR ejercicio 3, eliminacion de recursividad en S
+└── README.md               
 ```
 
 ---
@@ -36,9 +33,9 @@ No requiere dependencias externas.
 ## Como ejecutarlo
 
 ```bash
-python3 parser_ejercicio1.py
-python3 parser_ejercicio2.py
-python3 parser_ejercicio3.py
+python3 ejercicio1.py
+python3 ejercicio2.py
+python3 ejercicio3.py
 ```
 
 Cada script imprime dos bloques: pruebas validas aceptadas y pruebas invalidas rechazadas con su motivo.
@@ -83,6 +80,16 @@ Ninguna de las tres gramaticas es LL(1).
 | **Riesgo de loop** | Bajo | Alto (`S→B→A→S`) | Ninguno |
 
 ---
+
+## Salida por consola
+Ejercicio 1
+<img width="414" height="246" alt="image" src="https://github.com/user-attachments/assets/415d11e0-4932-4432-abca-46fe7f5881c2" />
+Ejercicio 2
+<img width="637" height="492" alt="image" src="https://github.com/user-attachments/assets/89b2b789-07e8-47ee-9f28-625c7c4c4c76" />
+Ejercicio 3
+<img width="653" height="498" alt="image" src="https://github.com/user-attachments/assets/1ceca368-f915-4738-9600-344e8f947f8d" />
+
+
 
 ## Mecanismo de backtracking
 
